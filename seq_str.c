@@ -13,7 +13,8 @@ int main(){
     //char c='A';
     //char c; c='A';
     char c=65;
-    printf("%c\n",c);
+    char c2=97;
+    printf("%c\n%c\n",c,c2);
 
     return 0;
 }
