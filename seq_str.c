@@ -12,8 +12,10 @@ int main(){
 
     //char c='A';
     //char c; c='A';
-    char c=65;
-    char c2=97;
+    // char c=65;
+    // char c2=97;
+    char c='\101';
+    char c2='\x41';
     printf("%c\n%c\n",c,c2);
 
     return 0;
