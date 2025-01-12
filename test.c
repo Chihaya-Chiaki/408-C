@@ -13,5 +13,11 @@ int main(){
     int ab#cd=325;
     float book-1=34;
     printf("%d\t%d\t%f\n",3sum,ab#cd,book-1);*/
+
+    char ch;
+    scanf("%c",&ch);
+
+    ch=(ch>='A'||ch<='Z')?ch+32:ch;
+    printf("%c\n",ch);
     return 0;
     }
